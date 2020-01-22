@@ -1,0 +1,24 @@
+{
+  "name": "hermione-max-set-viewport-size",
+  "version": "0.0.1",
+  "description": "Hermione plugin for configuring max dimensions for SetViewportSize command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustyo-O/hermione-max-set-viewport-size.git"
+  },
+  "keywords": [
+    "hermione",
+    "hermione-plugin",
+    "setViewportSize"
+  ],
+  "author": "Alexandr Shleyko <a.shleyko@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dustyo-O/hermione-max-set-viewport-size/issues"
+  },
+  "homepage": "https://github.com/dustyo-O/hermione-max-set-viewport-size#readme"
+}
