@@ -2,9 +2,7 @@
 
 module.exports = (hermione, maxSizes = {}) => {
     hermione.on(hermione.events.NEW_BROWSER, (browser) => {
-        const baseSetViewportSize = browser.setViewportSize.bind(browser);
-
-        browser.addCommand('setViewportSize', async (size) => {
+        browser.overwriteCommand('setViewportSize', async (baseSetViewportSize, size) => {
             const browserId = await browser.getConfig().then(config => config.id);
             const maxSize = maxSizes[browserId];
 
@@ -16,6 +14,6 @@ module.exports = (hermione, maxSizes = {}) => {
             }
 
             await baseSetViewportSize(actualSize);
-        }, true);
+        });
     });
 };
