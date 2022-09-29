@@ -1,6 +1,6 @@
 {
   "name": "hermione-max-set-viewport-size",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Hermione plugin for configuring max dimensions for SetViewportSize command",
   "main": "index.js",
   "scripts": {
